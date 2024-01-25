@@ -17,10 +17,24 @@ export default class MyDocument extends Document {
           <link href="/safari-pinned-tab.svg" rel="mask-icon" color="#4a9885" />
           <link href="/site.webmanifest" rel="manifest" />
           */}
+           {(process.env.NODE_ENV === 'production') &&
+        <script dangerouslySetInnerHTML={{
+            __html: `(function (w, d, s, l, i) {
+                    w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+                    var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+                    j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+                })(window, document, 'script', 'dataLayer', 'GTM-5N8F4RFW');`
+        }}></script>
+    }
         </Head>
         <body>
           <Main />
           <NextScript />
+          {(process.env.NODE_ENV === 'production') &&
+        <noscript dangerouslySetInnerHTML={{
+            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXX" height="0" width="0" style="display:none;visibility:hidden"></iframe>`
+        }}></noscript>
+    }
         </body>
       </Html>
     );
