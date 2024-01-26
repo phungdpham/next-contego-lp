@@ -32,7 +32,7 @@ export default class MyDocument extends Document {
           <NextScript />
           {(process.env.NODE_ENV === 'production') &&
         <noscript dangerouslySetInnerHTML={{
-            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXX" height="0" width="0" style="display:none;visibility:hidden"></iframe>`
+            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5N8F4RFW" height="0" width="0" style="display:none;visibility:hidden"></iframe>`
         }}></noscript>
     }
         </body>
