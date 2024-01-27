@@ -27,10 +27,12 @@ function HeroSection(props) {
             {/* <div className="absolute rounded-xl bottom-0 left-0 w-32 h-32 bg-blue-200 bg-opacity-50 -mb-10 -ml-10 transform rotate-3" /> */}
             <iframe
               className="w-full h-52 lg:w-96 lg:h-56 relative object-cover rounded-lg mx-auto shadow-lg"
-                src="https://player.vimeo.com/video/906137707"
-              alt=""
+              // src="https://player.vimeo.com/video/906137707"
+              src="https://player.vimeo.com/video/906137707?h=c7cf83a4be&autoplay=1&title=0&byline=0&portrait=0"
+              alt="contego-hygiene-liner"  
+              allow="autoplay"
               allowFullScreen
-              autoPlay
+          
             />
             {/* <iframe
                 src="https://player.vimeo.com/video/906137707"
