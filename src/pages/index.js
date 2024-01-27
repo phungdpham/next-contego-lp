@@ -5,7 +5,7 @@ import HeroSection2 from "components/HeroSection2";
 function IndexPage(props) {
   return (
     <>
-      <Meta />
+      <Meta title="Bấm Ngay để biết thêm 👉" />
       <HeroSection2
         title="Every Contégo product is designed with unique user-friendly features, while performing at the highest sanitation standards."
         subtitle="We are confident in the quality of our products and strive to give you the best customer service. "
