@@ -8,8 +8,9 @@ function ContegoHygieneLinerPage(props) {
     <>
       <Meta title="Bấm Ngay để biết thêm 👉" />
       <HeroSection
-        title="Tại sao Contego Hygiene Liner là lựa chọn hàng đầu của khách hàng tiệm nails?"
-        subtitle=" Xem ngay video để biết thêm"
+        // title="Tại sao Contégo Hygiene Liner là lựa chọn hàng đầu của khách hàng tiệm nails?"
+        title="Tại sao Contégo Hygiene Liner được ưa dùng?"
+        subtitle="Xem ngay video để biết thêm"
         strapline=""
         size="lg"
         bgColor="bg-white"
@@ -18,8 +19,9 @@ function ContegoHygieneLinerPage(props) {
         textColor=""
       />
       <ContactSection
-        title="TƯ VẤN MIỄN PHÍ"
-        subtitle="Hãy liên hệ ngay với CONTEGO SPA để được tư vấn đầy đủ về các tính năng nổi bật, những mẫu ghế CONTEGO hot nhất, và những ưu đãi đặc biệt!"
+        // title="TƯ VẤN MIỄN PHÍ"
+        title="ƯU ĐÃI ĐẶC BIỆT KHI MUA GHẾ CONTÉGO SPA"
+        subtitle="Liên hệ ngay để nhận tư vấn miễn phí!"
         strapline=""
         size="md"
         bgColor="bg-red-900"
