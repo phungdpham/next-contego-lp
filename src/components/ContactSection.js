@@ -28,10 +28,10 @@ function ContactSection(props) {
         // Clear form
         // reset();
         // Show success alert message
-        // setFormAlert({
-        //   type: "success",
-        //   message: "Your message has been sent!",
-        // });
+        setFormAlert({
+          type: "success",
+          message: "Your message has been sent!",
+        });
         router.push('/thank-you');
         
       })
@@ -92,14 +92,15 @@ function ContactSection(props) {
                   </div>
                   <div>
                     <TextField
-                      type="tel"
+                      type="number"
                       label="Phone"
                       id="mobile"
                       name="mobile"
                       placeholder=""
                       error={errors.phone}
                       inputRef={register({
-                        required: "Please enter an phone number",
+                        required: "Please enter a valid phone number",
+                        pattern: /^\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/
                       })}
                     />
                   </div>
