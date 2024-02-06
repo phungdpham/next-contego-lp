@@ -15,7 +15,7 @@ function Footer(props) {
         <div className="flex flex-col md:flex-row-reverse md:justify-between space-y-6 md:space-y-0 text-center md:text-left text-sm lg:text-base">
           <div className="text-gray-600">
             <span className="font-medium">
-              © 2024 Contego Spa Designs, All Rights Reserved.
+              © 2024 Contégo Spa Designs, All Rights Reserved.
             </span>
           </div>
         </div>
