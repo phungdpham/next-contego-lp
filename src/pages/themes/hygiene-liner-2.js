@@ -9,7 +9,7 @@ function ContegoHygieneLinerPage(props) {
       <Meta title="Bấm Ngay để biết thêm 👉" />
       <HeroSection
         // title="Tại sao Contégo Hygiene Liner là lựa chọn hàng đầu của khách hàng tiệm nails?"
-        title="Tại sao Contégo Hygiene Liner được ưa dùng?"
+        title="CHỦ & THỢ NAIL NÓI GÌ VỀ CONTÉGO HYGIENE LINER ?"
         subtitle="Xem ngay video để biết thêm"
         strapline=""
         size="lg"
@@ -17,7 +17,8 @@ function ContegoHygieneLinerPage(props) {
         bgImage=""
         bgImageOpacity={1}
         textColor=""
-        video="https://player.vimeo.com/video/906137707?h=c7cf83a4be&autoplay=1&title=0&byline=0&portrait=0"
+        video="https://player.vimeo.com/video/910539625?h=c7cf83a4be&autoplay=1&title=0&byline=0&portrait=0"
+
       />
       <ContactSection
         // title="TƯ VẤN MIỄN PHÍ"

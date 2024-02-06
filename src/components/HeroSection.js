@@ -28,7 +28,8 @@ function HeroSection(props) {
             <iframe
               className="w-full h-52 lg:w-96 lg:h-56 relative mx-auto"
               // src="https://player.vimeo.com/video/906137707"
-              src="https://player.vimeo.com/video/906137707?h=c7cf83a4be&autoplay=1&title=0&byline=0&portrait=0"
+              // src="https://player.vimeo.com/video/906137707?h=c7cf83a4be&autoplay=1&title=0&byline=0&portrait=0"
+              src={props.video}
               alt="contego-hygiene-liner"  
               allow="autoplay"
               allowFullScreen
