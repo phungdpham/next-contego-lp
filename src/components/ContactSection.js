@@ -86,7 +86,7 @@ function ContactSection(props) {
                       placeholder=""
                       error={errors.name}
                       inputRef={register({
-                        required: true,
+                        required: "Please enter Your name",
                       })}
                     />
                   </div>
