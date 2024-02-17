@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {useRouter } from "next/router";
+import { useRouter } from "next/router";
 import { PaperAirplaneIcon } from "@heroicons/react/24/solid";
 import { useForm } from "react-hook-form";
 import Section from "components/Section";
@@ -32,8 +32,7 @@ function ContactSection(props) {
           type: "success",
           message: "Your message has been sent!",
         });
-        router.push('/thank-you');
-        
+        router.push("/thank-you");
       })
       .catch((error) => {
         // Show error alert message
@@ -46,7 +45,6 @@ function ContactSection(props) {
         // Hide pending indicator
         setPending(false);
       });
-      
   };
 
   return (
@@ -87,7 +85,9 @@ function ContactSection(props) {
                       name="name"
                       placeholder=""
                       error={errors.name}
-                      inputRef={register()}
+                      inputRef={register({
+                        required: true,
+                      })}
                     />
                   </div>
                   <div>
@@ -100,7 +100,7 @@ function ContactSection(props) {
                       error={errors.phone}
                       inputRef={register({
                         required: "Please enter a valid phone number",
-                        pattern: /^\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/
+                        pattern: /^\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/,
                       })}
                     />
                   </div>
