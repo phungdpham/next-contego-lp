@@ -6,7 +6,7 @@ import ContactSection from "components/ContactSection";
 function ContegoHygieneLinerPage(props) {
   return (
     <>
-      <Meta title="Bấm Ngay để biết thêm 👉" />
+      <Meta title="Ưu đãi đặc biệt khi mua ghế 👉" />
       <HeroSection
         // title="Tại sao Contégo Hygiene Liner là lựa chọn hàng đầu của khách hàng tiệm nails?"
         title="CHỦ & THỢ NAIL NÓI GÌ VỀ CONTÉGO HYGIENE LINER ?"
@@ -18,11 +18,10 @@ function ContegoHygieneLinerPage(props) {
         bgImageOpacity={1}
         textColor=""
         video="https://player.vimeo.com/video/910539625?h=c7cf83a4be&autoplay=1&title=0&byline=0&portrait=0"
-
       />
       <ContactSection
         // title="TƯ VẤN MIỄN PHÍ"
-        title="ƯU ĐÃI ĐẶC BIỆT KHI MUA GHẾ CONTÉGO SPA"
+        title="LỰA CHỌN FINANCE & ƯU ĐÃI ĐẶC BIỆT KHI MUA GHẾ CONTÉGO SPA"
         subtitle="Liên hệ ngay để nhận tư vấn miễn phí!"
         strapline=""
         size="md"

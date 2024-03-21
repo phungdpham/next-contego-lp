@@ -9,7 +9,7 @@ function ContegoHygieneLinerPage(props) {
       <Meta title="Ưu đãi đặc biệt khi mua ghế 👉" />
       <HeroSection
         // title="Tại sao Contégo Hygiene Liner là lựa chọn hàng đầu của khách hàng tiệm nails?"
-        title="Tại sao Contégo Hygiene Liner được ưa dùng?"
+        title="Hệ thống Infinity Overflow & Easy Drain Tiện Lợi Như Thế Nào?"
         subtitle="Xem ngay video để biết thêm"
         strapline=""
         size="lg"
@@ -17,11 +17,11 @@ function ContegoHygieneLinerPage(props) {
         bgImage=""
         bgImageOpacity={1}
         textColor=""
-        video="https://player.vimeo.com/video/906137707?h=c7cf83a4be&autoplay=1&title=0&byline=0&portrait=0"
+        video="https://player.vimeo.com/video/925606550?h=c7cf83a4be&autoplay=1&title=0&byline=0&portrait=0"
       />
       <ContactSection
         // title="TƯ VẤN MIỄN PHÍ"
-        title="ƯU ĐÃI ĐẶC BIỆT KHI MUA GHẾ CONTÉGO SPA"
+        title="LỰA CHỌN FINANCE & ƯU ĐÃI ĐẶC BIỆT KHI MUA GHẾ CONTÉGO SPA"
         subtitle="Liên hệ ngay để nhận tư vấn miễn phí!"
         strapline=""
         size="md"
