@@ -6,7 +6,7 @@ import ContactSection from "components/ContactSection";
 function ContegoHygieneLinerPage(props) {
   return (
     <>
-      <Meta title="Ưu đãi đặc biệt khi mua ghế 👉" />
+      <Meta title="Ưu đãi đặc biệt khi mua ghế Contégo 👉" />
       <HeroSection
         // title="Tại sao Contégo Hygiene Liner là lựa chọn hàng đầu của khách hàng tiệm nails?"
         title="Tại sao Contégo Hygiene Liner được ưa dùng?"
