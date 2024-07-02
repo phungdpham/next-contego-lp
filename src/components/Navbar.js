@@ -72,7 +72,7 @@ function Navbar(props) {
             </a>
           </Link>
         </div>
-        <div className={"lg:hidden" + (!mobileNavOpen ? " hidden" : "")}>
+        {/* <div className={"lg:hidden" + (!mobileNavOpen ? " hidden" : "")}>
           <div className="grid grid-cols-1 sm:grid-cols-3 border rounded-xl my-5">
             <div className="col-span-2 p-3 space-y-6">
               <div className="px-3 pt-3">
@@ -171,7 +171,7 @@ function Navbar(props) {
               </nav>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </Section>
   );

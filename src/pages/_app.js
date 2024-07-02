@@ -2,6 +2,7 @@ import React from 'react';
 import 'styles/global.css';
 import Navbar from 'components/Navbar';
 import Footer from 'components/Footer';
+import CallButton from 'components/CallBtn';
 import 'util/analytics';
 // import TagManager from 'react-gtm-module';
 
@@ -26,6 +27,7 @@ function MyApp({ Component, pageProps }) {
         textColor=""
         sticky={true}
       />
+      <CallButton />
     </>
   );
 }
