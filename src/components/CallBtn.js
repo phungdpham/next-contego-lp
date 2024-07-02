@@ -2,7 +2,8 @@
 
 function CallButton() {
   return (
-    <div className="fixed bottom-3 w-full md:invisible">
+    <div>    
+      <div className="fixed bottom-3 w-full md:invisible">
       <button className="bg-red-700 px-4 py-3 rounded-r-lg">
         <a
           href="tel:7148958865"
@@ -30,6 +31,7 @@ function CallButton() {
           Gọi Ngay | 714-895-8865
         </a>
       </button>
+    </div>
     </div>
   );
 }

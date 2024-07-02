@@ -27,7 +27,7 @@ function MyApp({ Component, pageProps }) {
         textColor=""
         sticky={true}
       />
-      <CallButton />
+      {/* <CallButton /> */}
     </>
   );
 }
