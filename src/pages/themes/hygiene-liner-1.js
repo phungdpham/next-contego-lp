@@ -21,9 +21,9 @@ function ContegoHygieneLinerPage(props) {
       />
       <ContactSection
         // title="TƯ VẤN MIỄN PHÍ"
-        title="Hệ thống Infinity Overflow & Easy Drain Tiện Lợi Như Thế Nào?"
-        subtitle="Liên hệ ngay để nhận tư vấn miễn phí!"
-        strapline=""
+        title="LỰA CHỌN FINANCE KHÔNG TIỀN LỜI & ƯU ĐÃI GIÁ ĐẶC BIỆT KHI MUA GHẾ CONTÉGO SPA"
+        subtitle="Hãy để lại tên & số phone, chúng tôi sẽ liên lạc ngay để tư vấn miễn phí!"
+        // strapline="Liên hệ ngay để nhận tư vấn miễn phí!"
         size="md"
         bgColor="bg-red-900"
         bgImage="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?crop=entropy&fit=crop&h=800&q=80&w=1280"
